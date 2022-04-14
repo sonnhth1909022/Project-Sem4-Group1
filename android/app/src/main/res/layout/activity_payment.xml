@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/colorPrimary"
+    tools:context=".activity.PaymentActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="VIP Package"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/tvVIP1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/button_bg"
+        android:padding="16dp"
+        android:text="1 month VIP package = 98.000 VND"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="@color/white"
+        android:typeface="monospace"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvVIP2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/button_bg"
+        android:padding="16dp"
+        android:text="6 month VIP package = 588.000 VND"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvVIP1"
+        android:textColor="@color/white"
+        android:typeface="monospace"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvVIP3"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/button_bg"
+        android:padding="16dp"
+        android:text="1 year VIP package = 1.176.000 VND"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvVIP2"
+        android:textColor="@color/white"
+        android:typeface="monospace"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Terms Of Service"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="By accepting payment, you agree to our terms of service and authorize us to auto-renew upon expiration. Customers can cancel at any time."
+        android:textColor="@color/white"
+        android:layout_margin="15dp"
+        android:textSize="17sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agreement - Policy - Contact"
+        android:textColor="@color/white"
+        android:textSize="17sp"/>
+
+</LinearLayout>

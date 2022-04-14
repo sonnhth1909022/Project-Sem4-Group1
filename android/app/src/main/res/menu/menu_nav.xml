@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <item android:id="@+id/nav_home"
+        android:title="@string/nav_home"
+        android:icon="@drawable/ic_home"/>
+    <item android:id="@+id/nav_library"
+        android:title="Library"
+        android:icon="@drawable/ic_baseline_video_library_24"/>
+    <item android:id="@+id/nav_favorite"
+        android:title="@string/nav_favorite"
+        android:icon="@drawable/ic__favorite"/>
+    <item android:id="@+id/nav_sub"
+        android:title="Subscription"
+        android:icon="@drawable/ic_baseline_subscriptions_24"/>
+
+
+</group>
+    <item android:title="@string/nav_account">
+        <menu>
+            <item android:id="@+id/nav_my_profile"
+                android:title="@string/nav_my_profile"
+                android:icon="@drawable/ic_user"/>
+            <item android:id="@+id/nav_change_password"
+                android:title="@string/nav_change_password"
+                android:icon="@drawable/ic_change_password"/>
+            <item android:id="@+id/nav_logout"
+                android:title="@string/nav_logout"
+                android:icon="@drawable/ic_baseline_login_24"/>
+        </menu>
+    </item>
+</menu>
